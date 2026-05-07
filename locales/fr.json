@@ -3,6 +3,7 @@
         "default": "Une erreure est survenue pendant l'exécution de la commande. Veuillez réessayer plus tard.",
         "invalidSubcommand": "Sous-commande invalide",
         "insufficientParameters": "Paramètres insuffisants",
+        "noAnswer": "Aucune réponse reçue",
 
         "noShops": "Il n'y a pas de boutique.\n-# Utilisez `/shops-manage create` pour en créer une nouvelle",
         "noCurrencies": "Il n'y a pas de devise.\n-# Utilisez `/currencies-manage create` pour créer une nouvelle devise",
