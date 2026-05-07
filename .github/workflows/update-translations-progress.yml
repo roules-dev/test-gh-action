@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-translations-progress:
+    name: Display translations progress inside readme.md
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: update translations step
+        id: hello
+        uses: roules-dev/update-translation-progress-action@main
+        with:
+          who-to-greet: Roules
+
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
