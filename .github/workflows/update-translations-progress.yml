@@ -13,7 +13,7 @@ jobs:
         id: hello
         uses: roules-dev/update-translation-progress-action@main
         with:
-          who-to-greet: Roules
+          gh-token: ${{ secrets.GITHUB_TOKEN }}
 
       # Use the output from the `hello` step
       - name: Get the output time
