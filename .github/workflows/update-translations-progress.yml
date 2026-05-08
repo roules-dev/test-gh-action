@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: write
 
+    if: github.actor != 'roules-bot'
     steps:
       - name: update translations step
         id: hello
